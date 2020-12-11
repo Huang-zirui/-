@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <style type="text/css">
+
+        body{
+    
+            font-size:large;
+    
+            background-color: pink;
+    
+        }
+    
+    </style>
+    
+    
+
+
+    <title>扫雷游戏</title>
+	<script type="text/javascript">
+		var init;
+		var time = 0;
+		function start1(){
+
+			init = setInterval(timer,1000);
+		}
+		function timer(){
+			time =time+1;
+			document.getElementById("timetext").value = time;
+		}
+		function stop1(){
+			clearInterval(init);
+		}
+		function reset1(){
+			time = 0;
+			document.getElementById("timetext").value = time;
+		}
+    </script>
+    
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<head>
+    <style type="text/css">
+h1 {font-family:Georgia, 'Times New Roman';}
+
+</style>
+</head>
+<body>
+<h1>Mine Sweeping       by Huang zirui</h1>
+</body>
+
+
+
+
+
+
+
+<body>
+    <div id="main">
+        <div class="btns">
+            <button>小白级</button>
+            <button>大神级</button>
+            <button>元老级</button>
+            <button>开始游戏</button>
+        </div>
+
+
+
+        <div class="gameBox">
+        </div>
+        <div class="info">还剩下<span class="minesNum"></span>个雷哦</div>
+        <div class="content">
+            <p>点击鼠标左键可以出现数字和雷</p>
+            <p>点击鼠标右键可以出现小红旗</p>
+        </div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+
+
+<body>
+
+    <title>扫雷游戏</title>
+	<script type="text/javascript">
+		var init;
+		var time = 0;
+		function start1(){
+
+			init = setInterval(timer,1000);
+		}
+		function timer(){
+			time =time+1;
+			document.getElementById("timetext").value = time;
+		}
+		function stop1(){
+			clearInterval(init);
+		}
+		function reset1(){
+			time = 0;
+			document.getElementById("timetext").value = time;
+		}
+	</script>
+
+
+
+	<input type="text" id="timetext" value="0" > 秒 <br>
+	<input type="button" value="开始游戏" id="submit" onclick="start1()">
+	<input type="button" value="stop" id="stop" onclick="stop1()">
+	
+</body>
+
+
+</html>

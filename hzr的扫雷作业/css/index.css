@@ -1,0 +1,45 @@
+
+* {margin: 0;padding: 0;}
+
+#main {margin: 30px auto;text-align: center;}
+
+/* #main .btns {margin-bottom: 20px;} */
+
+#main .btns button {background-color: #56cadf;outline: none;border: none;color: rgb(240, 239, 239);padding: 10px 15px 6px;font-size: 20px;border-radius: 10px;margin: 0 20px 30px;cursor: pointer;}
+
+#main .btns button.active {background-color: #3d8cb9;}
+
+table {border-spacing: 1px;margin: 0 auto;background-color: #c0c0c0;}
+
+td {width: 30px;height: 30px;background-color: #ebf5b6;border: 2px solid;border-color: #fff #f1f1f1 #a1a1a1 #fff;font-weight: bold;}
+
+
+td.zero {border-color: #cccccc;background-color: #cccccc;}
+
+td.one {border-color: #cccccc;background-color: #cccccc;color: rgb(209, 103, 16);}
+
+td.two {border-color: #cccccc;background-color: #cccccc;color: rgb(35, 32, 224);}
+
+td.three {border-color: #cccccc;background-color: #cccccc;color: #6508fa;}
+
+td.four {border-color: #cccccc;background-color: #cccccc;color: #9b5cb4;}
+
+td.five {border-color: #cccccc;background-color: #cccccc;color: #ff7f29;}
+
+td.six {border-color: #cccccc;background-color: #cccccc;color: #ff3fff;}
+
+td.seven {border-color: #cccccc;background-color: #cccccc;color: #3fffbf;}
+
+td.eight {border-color: #cccccc;background-color: #cccccc;color: #22ee0f;}
+
+td.click {background: #cccccc url(../images/1.png);background-size: cover;}   
+
+.main {background: #c0c0c0 url(../images/3.png);background-size: cover;border-color: #7ee0c8;} 
+
+.flag {background: #c0c0c0 url(../images/2.gif);background-size: cover;} 
+
+#main .info {margin-top: 20px;border:burlywood;}
+
+#main .content {color: rgb(39, 137, 218);margin-top: 20px;}
+
+#main .gameBox td.mines {background: url(../images/3.png) no-repeat;background-size: cover;color: #7ee0c8;}
